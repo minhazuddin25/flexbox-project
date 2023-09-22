@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+  body{
+    font-family: 'poppins',sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  a{
+    text-decoration: none;
+    color: #333;
+    transform: 3s;
+    font-size: 18px;
+  }
+  ul{
+    list-style: none;
+  }
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-area {
+    padding: 30px 0;
+    background-color: #ddd;
+}
+.header{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo a{
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 700;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li a{
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.menu ul li a:hover{
+    color: tomato;
+    border-bottom: 2px solid tomato;
+}
+.header-area{
+    padding: 30px 0;
+}
+.banner img{
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.about-title h4{
+    text-transform: capitalize;
+    font-size: 26px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.about-title p{
+    text-align: center;
+    font-size: 16px;
+}
+.about-single i{
+    font-size: 20px;
+    border: 1px solid #ddd;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+
+}
+.about-area{
+    padding: 80px 0;
+}
+.about{
+    display: flex;
+    text-align: center;
+    padding: 50px 0;
+   
+}
+.about-single h4{
+    text-transform: capitalize;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.services-area{
+    background-color: #f2f2f2;
+    padding: 80px 0;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.title h4{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.single-service{
+    background-color: #fff;
+    padding: 20px;
+    flex-basis: 32%;
+}
+
+.single-service h4{
+    text-align: center;
+    background-color: teal;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.single-service p{
+    line-height: 20px;
+    margin: 20px 0;
+}
+.single-service a{
+    background-color: tomato;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    display: inline-block;
+    transition: .3s;
+}
+.single-service a:hover{
+    background-color: teal;
+}
+
+.gallery-area{
+    padding: 80px 0;
+}
+
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.single-galleray{
+    display: flex;
+  justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    
+}
+
+.single-galleray img{
+    margin: 5px;
+    border: 1px solid #ddd;
+    padding: 3px;
+    border-radius: 10px ;
+}
+
+
+
+.contact-area{
+    background-color: #f2f2f2;
+    padding: 80px 0;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-form{
+    flex-basis: 60%;
+}
+.contact-address{
+    flex-basis: 30%;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.contact-form input[type="submit"]{
+    background-color: tomato;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.contact-form input[type="submit"]:hover{
+    background-color: teal;
+}
+
+.contact-form textarea{
+    height: 120px;
+}
+
+.contact-address{
+
+}
+.single-contact{
+    display: flex;
+    align-items: center;
+    bottom: 30px;
+}
+
+.single-contact i{
+    background-color: tomato;
+    color: #fff;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.single-contact h4{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+
+.single-contact h4 span{
+    display: block;
+    font-size: 20px;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+
+
+.footer-area{
+    background-color: teal;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-area p{
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
